@@ -1,0 +1,82 @@
+condition :
+if else 
+
+if(conditon)
+{
+  code : which we want to exe. if conditon is true
+}
+else
+{
+  code: if condition is not true
+}
+_____________________________________________
+
+class object 
+:
+class: class is a blueprint of an object
+: creating class is as good as creating a new datatyp
+
+//int 
+//
+
+Data of an employe
+{
+ name="shaoib"
+ age = 13
+ salary =1200
+ email ="""
+}
+
+i have stored data of an employee
+.class 
+
+class Employe
+{ 
+ String name;
+ int age;
+ float sal;
+}
+**********************************************
+class we can have  varaibles, methods , Constructors 
+//Most Important :
+
+methods:
+-> we want to reuse a piece of code, we use the concpet of methods 
+
+How to creat a method 
+-> returnType methodname(paramter)
+{
+   code: which we want to reuse
+}
+Example1:
+returType[void,DataType[int, char, float, String.]
+
+static void myMethod1()
+{
+  Sysout("Hello World");
+}
+
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "375",
+    "createdAt": "2025-05-08T15:23:31.834Z"
+}
+
+class user
+{
+  String name;
+  String job;
+  int id;
+  String createdAt;
+}
+
+user u1=new user()
+u1.name="morpheus"
+u1.job=techinal 
+u1.id=007
+
+u1.
+
+
+
