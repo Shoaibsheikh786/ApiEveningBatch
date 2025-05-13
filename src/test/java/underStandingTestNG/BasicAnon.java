@@ -7,8 +7,9 @@ public class BasicAnon {
 	
 	//1. To add TestNG Libaray 
 	  //url: https://mvnrepository.com/
-	  //serach for testNG
-	  //add testNG to pom.xml 
+	  //serach for testNG (OR) copy my pom.xml file (dependenciess )
+	  //add testNG to pom.xml
+	//################################33
 	//2. Add TestNG plugin
 	  //help -> eclipse marketplace--> testNG, install,->next
 	//3. create you package and classes in 
