@@ -22,7 +22,7 @@ public class HttMethods {
 		 *   //authentication, payload,(data), 
 		 *   
 		 * .when()
-		 *  //Type of request:-> get, post , put , del
+		 *  //Type of request:-> get, post , put , del,patch
 		 *     
 		 *  
 		 * .then()
@@ -32,12 +32,13 @@ public class HttMethods {
 		 *    //response body
 		 *    //header 
 		 *    //cookies 
+		 *    //time
 		 *;
 		 * 
 		 * */
 		//log the response 
 		//then()
-		  //log().[all(),body(),cookies(),header()];
+		  //log().[all(), .body(),.cookies(),.header()];
 		
 		RestAssured
 		.given()

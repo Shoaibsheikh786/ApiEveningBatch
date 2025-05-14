@@ -18,6 +18,6 @@ public class UsingHashmap {
 	//How to create payload
 	//2.JSONObject 
 	//3.POJO (java class)
-	//4.External file .json
+	//4.External file filename(body).json
 
 }

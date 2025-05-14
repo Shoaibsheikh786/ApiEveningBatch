@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicRequests.HttMethods">
+      <class name="validation.ValidataionWithInTime">
         <methods>
-          <include name="deleteSudent"/>
+          <include name="updateStudentValidatiaonBody"/>
         </methods>
-      </class> <!-- basicRequests.HttMethods -->
+      </class> <!-- validation.ValidataionWithInTime -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-13T20:48:10 IST" name="Default suite" finished-at="2025-05-13T20:48:16 IST" duration-ms="6102">
+  <suite started-at="2025-05-14T20:57:47 IST" name="Default suite" finished-at="2025-05-14T20:57:58 IST" duration-ms="11551">
     <groups>
     </groups>
-    <test started-at="2025-05-13T20:48:10 IST" name="Default test" finished-at="2025-05-13T20:48:16 IST" duration-ms="6102">
-      <class name="basicRequests.HttMethods">
-        <test-method signature="updateNameOnly()[pri:0, instance:basicRequests.HttMethods@223191a6]" started-at="2025-05-13T20:48:10 IST" name="updateNameOnly" finished-at="2025-05-13T20:48:16 IST" duration-ms="6005" status="PASS">
+    <test started-at="2025-05-14T20:57:47 IST" name="Default test" finished-at="2025-05-14T20:57:58 IST" duration-ms="11551">
+      <class name="validation.ValidataionBodyJso">
+        <test-method signature="getStudents()[pri:0, instance:validation.ValidataionBodyJso@2b662a77]" started-at="2025-05-14T20:57:47 IST" name="getStudents" finished-at="2025-05-14T20:57:58 IST" duration-ms="11426" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updateNameOnly -->
-      </class> <!-- basicRequests.HttMethods -->
+        </test-method> <!-- getStudents -->
+      </class> <!-- validation.ValidataionBodyJso -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
