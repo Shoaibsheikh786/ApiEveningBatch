@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="validation.ValidataionWithInTime">
+      <class name="multipleValidations.AllValidations">
         <methods>
-          <include name="updateStudentValidatiaonBody"/>
+          <include name="allValidationInOnRequestin"/>
         </methods>
-      </class> <!-- validation.ValidataionWithInTime -->
+      </class> <!-- multipleValidations.AllValidations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

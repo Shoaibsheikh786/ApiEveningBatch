@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-14T20:57:47 IST" name="Default suite" finished-at="2025-05-14T20:57:58 IST" duration-ms="11551">
+  <suite started-at="2025-05-15T20:51:25 IST" name="Default suite" finished-at="2025-05-15T20:51:31 IST" duration-ms="6138">
     <groups>
     </groups>
-    <test started-at="2025-05-14T20:57:47 IST" name="Default test" finished-at="2025-05-14T20:57:58 IST" duration-ms="11551">
-      <class name="validation.ValidataionBodyJso">
-        <test-method signature="getStudents()[pri:0, instance:validation.ValidataionBodyJso@2b662a77]" started-at="2025-05-14T20:57:47 IST" name="getStudents" finished-at="2025-05-14T20:57:58 IST" duration-ms="11426" status="PASS">
+    <test started-at="2025-05-15T20:51:25 IST" name="Default test" finished-at="2025-05-15T20:51:31 IST" duration-ms="6138">
+      <class name="pathParamAndQueryParam.QueryParam">
+        <test-method signature="dealingWithQueryParam()[pri:0, instance:pathParamAndQueryParam.QueryParam@c8c12ac]" started-at="2025-05-15T20:51:25 IST" name="dealingWithQueryParam" finished-at="2025-05-15T20:51:31 IST" duration-ms="5984" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getStudents -->
-      </class> <!-- validation.ValidataionBodyJso -->
+        </test-method> <!-- dealingWithQueryParam -->
+      </class> <!-- pathParamAndQueryParam.QueryParam -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

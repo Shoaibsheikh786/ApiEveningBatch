@@ -20,6 +20,7 @@ public class HttMethods {
 		/*RestAssured.
 		 * given()
 		 *   //authentication, payload,(data), 
+		 *   //contentType , pathparam, queryparm
 		 *   
 		 * .when()
 		 *  //Type of request:-> get, post , put , del,patch
