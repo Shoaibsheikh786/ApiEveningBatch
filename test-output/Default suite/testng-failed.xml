@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="multipleValidations.AllValidations">
+      <class name="parsing.UnderstandingJsonObject">
         <methods>
-          <include name="allValidationInOnRequestin"/>
+          <include name="parsingUsingJsonObject"/>
         </methods>
-      </class> <!-- multipleValidations.AllValidations -->
+      </class> <!-- parsing.UnderstandingJsonObject -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
