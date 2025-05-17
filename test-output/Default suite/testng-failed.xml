@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parsing.UnderstandingJsonObject">
+      <class name="validateScema.ValidateJsonSchema1">
         <methods>
-          <include name="parsingUsingJsonObject"/>
+          <include name="validateJsonSchema"/>
         </methods>
-      </class> <!-- parsing.UnderstandingJsonObject -->
+      </class> <!-- validateScema.ValidateJsonSchema1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
