@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Updated Jhon",
+      "email": "Updateddoe@example.com",
+      "age": 300
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 25
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "age": 40
+    },
+    {
+      "name": "Shoaib",
+      "id": 4,
+      "email": "shaoib@gmail.com",
+      "age": 23
+    },
+    {
+      "name": "Muneer",
+      "email": "Muneer@gmail.com",
+      "age": 23,
+      "id": 5
+    },
+    {
+      "name": "Muneer",
+      "email": "Muneer@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Muneer",
+      "id": 7,
+      "email": "Muneer@gmail.com",
+      "age": 23
+    },
+    {
+      "name": "Samual Reinger",
+      "id": 8,
+      "email": "trinidad.hamill@yahoo.com",
+      "age": "84"
+    },
+    {
+      "empty": false,
+      "mapType": "java.util.HashMap",
+      "id": 9
+    },
+    {
+      "name": "jsonObject",
+      "Id": 13,
+      "email": "json@object.com",
+      "age": 43,
+      "id": 10
+    },
+    {
+      "name": "PostWithPOjo ",
+      "id": 14,
+      "email": "Pojo@gmail.com",
+      "age": 12
+    },
+    {
+      "name": "ExternalJson",
+      "id": 44,
+      "email": "External@json.com",
+      "age": 12
+    },
+    {
+      "id": 45
+    },
+    {
+      "name": "Kiran",
+      "email": "kiran@gmail.com",
+      "id": 46
+    },
+    {
+      "name": "Kiran",
+      "email": "kiran@gmail.com",
+      "id": 47
+    }
+  ]
+}

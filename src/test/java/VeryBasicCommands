@@ -1,0 +1,22 @@
+git init: makes our project git repo [for 1 project only once we need 
+to type it]
+git status: provide us status of the project
+git add . : make all my file ready for snapshot
+git commit -m "message; To take snapshot/commit
+
+git log: how many commits are there 
+git checkout ******code: it will take us to that snapshot/commit
+
+git push origin main : push my code on github :
+git pull origin main : pull the new code from github
+
+git clone url: download/clone the git repository
+
+
+
+
+
+
+
+
+

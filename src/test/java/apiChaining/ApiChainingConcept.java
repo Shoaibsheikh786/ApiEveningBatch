@@ -17,8 +17,8 @@ public class ApiChainingConcept {
 	//then we will use that id in payload 
 	//to update the payload
 	//the same id , del
-	
-	@Test
+	int id;
+	@Test(priority=1)
 	public void createUser()
 	{
 		/*
@@ -45,10 +45,39 @@ public class ApiChainingConcept {
 		.post("https://reqres.in/api/users");
 	
 	    JsonPath jp=res.jsonPath();
-	    int i1=jp.getInt("id");
+	    id=jp.getInt("id");
 	    
-	    System.out.println("ID "+i1);
+	    System.out.println("ID "+id);
 		
 		
 	}
+	
+	@Test(priority=2)
+	public void readUser()
+	{
+		RestAssured.given()
+		.when()
+		.get("https://reqres.in/api/users/"+id)
+		.then();
+	}
+	
+	@Test(priority=3)
+   public void deleteUser()
+   {
+		RestAssured.given()
+		.when()
+		.delete("https://reqres.in/api/users/"+id)
+		.then();
+		
+		
+		//1.Downlod node js
+		 //--> nodejs downlaod
+		//2.Cmd type node
+		 //npm install json-server
+		
+		//3. Run 
+		//json server filename.json
+   }
 }
+
+

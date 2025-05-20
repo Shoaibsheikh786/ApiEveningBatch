@@ -46,7 +46,7 @@ public class HttMethods {
 		.header("x-api-key","reqres-free-v1")
 		.when()
 		 .get("https://reqres.in/api/users?page=2")
-		.then().statusCode(200);
+		.then().statusCode(404);
 	}
 	
 	//post request
