@@ -12,6 +12,14 @@ git pull origin main : pull the new code from github
 
 git clone url: download/clone the git repository
 
+git branch dev1: new branch [folder]
+
+git branch : total branches
+
+git checkout branchname: control will to the branch
+merge 
+--> g
+
 
 
 
